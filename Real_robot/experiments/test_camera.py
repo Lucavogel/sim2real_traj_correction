@@ -3,6 +3,7 @@ import time
 import numpy as np
 from pupil_apriltags import Detector
 
+
 def benchmark_vision_tag16h5():
    # 1. Setup Camera
    cap = cv2.VideoCapture(2) # Change index to 1 or 2 if using external cam

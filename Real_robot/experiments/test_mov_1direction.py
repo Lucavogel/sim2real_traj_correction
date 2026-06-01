@@ -10,6 +10,7 @@ DEG_CHANGE = -20.0       # Move +20 degrees relative to current
 ACCELERATION = 0.5       # rad/s^2 (Safe, slow acceleration)
 VELOCITY = 0.3           # rad/s   (Safe, slow speed)
 
+
 def move_relative():
    # Setup logging to see what URX is doing
    logging.basicConfig(level=logging.INFO)

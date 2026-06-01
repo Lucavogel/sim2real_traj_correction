@@ -703,7 +703,7 @@ def main():
         if logger is not None and args_cli.log_npz:
             saved_path = logger.save(args_cli.log_npz)
             print(f"[INFO] Log saved to: {saved_path}")
-            print(f"[INFO] To plot, run: python plot_deploy_log.py --npz {saved_path} --show")
+            print(f"[INFO] To plot, run: python analysis/plot_deploy_log.py --npz {saved_path} --show")
 
         env.close()
         simulation_app.close()
