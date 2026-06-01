@@ -62,12 +62,8 @@ cd Real_robot/validation_mujoco
 python validate_mujoco.py
 ```
 
-### 3. Stop After Simulation Validation
-The current workflow ends after MuJoCo validation:
-```bash
-cd Real_robot/validation_mujoco
-python validate_mujoco.py
-```
+### 3. End of Workflow
+There is no documented deployment step after MuJoCo validation in this version of the project.
 
 ## Simulation & Setup Details
 
